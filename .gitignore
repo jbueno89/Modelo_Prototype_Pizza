@@ -1,0 +1,93 @@
+# ==========================================
+# Archivos de Sistema y Entorno Local
+# ==========================================
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+
+# Archivos de variables de entorno (¡NUNCA subir claves/secretos!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==========================================
+# Lenguajes y Compilados
+# ==========================================
+# Java / Kotlin
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+target/
+build/
+.gradle/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+*.sqlite3
+
+# C / C++
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Node.js / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+out/
+
+# ==========================================
+# Entornos de Desarrollo (IDEs y Editores)
+# ==========================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IntelliJ IDEA / NetBeans / Eclipse
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+.metadata/
+bin/
+
+# ==========================================
+# Control de Versiones y Logs
+# ==========================================
+*.log
+logs/
+.git-history
